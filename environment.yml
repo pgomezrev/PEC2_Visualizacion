@@ -1,0 +1,15 @@
+name: pec2_visualizacion
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - seaborn
+  - numpy
+  - plotly # Excelente para Spiral Plot y gráficos interactivos
+  - geopandas # Necesario para mapas geográficos
+  - contextily # Para añadir mapas base a los mapas de símbolos
+  - jupyterlab # Para trabajar cómodamente con notebooks
+  - ipykernel
